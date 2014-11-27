@@ -13,5 +13,18 @@ namespace ExtensionMethods
 
             return string.Join(separator, elements);
         }
+
+        public static void Print(this Object obj)
+        {
+            Console.WriteLine(obj);
+        }
+
+        public static void Act(this Object obj, Action<Object> action)
+        {
+            
+            
+
+           
+        }
     }
 }
